@@ -61,7 +61,7 @@ export default function Home() {
                 period="2023 — Present"
                 title="Systems Developer"
                 company="Nareia Software"
-                companyUrl="#"
+                companyUrl="https://www.nareia.com.uy"
                 description="Web application development with Angular and .NET 8.0. Integration with RESTful APIs and internal services. PostgreSQL database administration and Docker deployments. Collaboration using agile methodologies (Scrum/Kanban)."
                 tags={["Angular", ".NET 8.0", "PostgreSQL", "Docker", "REST APIs", "Scrum"]}
               />

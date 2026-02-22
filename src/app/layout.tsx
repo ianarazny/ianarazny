@@ -27,7 +27,7 @@ export default function RootLayout({
           <span></span>
           <span></span>
         </div>
-        <div className="relative z-10 mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:flex lg:justify-center lg:gap-16 lg:px-24 lg:py-0">
+        <div className="content-wrapper relative z-10 mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:flex lg:justify-center lg:gap-16 lg:px-24 lg:py-0">
           <Sidebar />
           <main className="pt-24 lg:w-1/2 lg:py-36">
             {children}

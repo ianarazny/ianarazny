@@ -55,6 +55,17 @@ body {
   background: var(--color-background);
   overflow: hidden;
   z-index: 0;
+  transition: opacity 0.4s ease;
+}
+
+body:has(.content-wrapper:hover) .background span {
+  opacity: 0.15;
+  transition: opacity 0.4s ease;
+}
+
+.background span {
+  opacity: 1;
+  transition: opacity 0.4s ease;
 }
 
 .background span {
