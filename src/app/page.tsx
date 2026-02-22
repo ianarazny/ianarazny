@@ -20,11 +20,6 @@ export default function Home() {
             I am especially interested in building solutions that integrate
             <span className="text-text-highlight font-medium"> artificial intelligence</span>
           </p>
-          <p className="text-text-muted leading-relaxed">
-            Outside of work, you can usually find me exploring new tools,
-            contributing to open source projects, and staying up to date with the
-            latest in software engineering and AI.
-          </p>
         </div>
       </section>
 
@@ -59,7 +54,7 @@ export default function Home() {
             <li className="mb-12">
               <ExperienceCard
                 period="2023 — Present"
-                title="Systems Developer"
+                title="Software Developer"
                 company="Nareia Software"
                 companyUrl="https://www.nareia.com.uy"
                 description="Web application development with Angular and .NET 8.0. Integration with RESTful APIs and internal services. PostgreSQL database administration and Docker deployments. Collaboration using agile methodologies (Scrum/Kanban)."
@@ -79,18 +74,10 @@ export default function Home() {
           <ol className="group/list">
             <li className="mb-12">
               <ProjectCard
-                title="Project One"
-                description="A brief description of the project, what it does, and the technologies involved."
-                tags={["React", "TypeScript", "Tailwind CSS"]}
-                link="#"
-              />
-            </li>
-            <li className="mb-12">
-              <ProjectCard
-                title="Project Two"
-                description="A brief description of the project, what it does, and the technologies involved."
-                tags={["Next.js", "Node.js", "PostgreSQL"]}
-                link="#"
+                title="Network Congestion Monitoring with ML"
+                description="Thesis project developing a real-time network congestion monitoring system. Built eBPF/XDP programs for high-performance packet inspection and flow metric collection at the kernel level. Applied Machine Learning techniques including XGBoost and Random Forest models to predict and classify network congestion patterns from system and flow metrics."
+                tags={["eBPF/XDP", "XGBoost", "Random Forest", "Python", "Machine Learning", "C", "Prometheus"]}
+                link="https://github.com/ianarazny/Monitorizacion-para-el-Control-de-Congestion"
               />
             </li>
           </ol>
